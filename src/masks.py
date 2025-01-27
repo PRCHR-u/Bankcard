@@ -10,7 +10,7 @@ def get_mask_card_number(card_number: str) -> str:
     """
     if not isinstance(card_number, str) or len(card_number) < 16:
         raise ValueError("Неверный формат номера карты.")
-    return f"{card_number[:4]} {card_number[5:6]}** **** {card_number[-4:]}"
+    return f"{card_number[:4]} {card_number[4:6]}** **** {card_number[-4:]}"
 
 
 def get_mask_account(account_number: str) -> str:
