@@ -18,7 +18,14 @@ def mask_account_card(account_info: str) -> str:
         return account_info
 
     card_type = parts[0].lower()
-    number_part = " ".join(parts[1:])
+    number_part = " "
+    for part in parts[1:]:
+        if any(char.isdigit() for char in part):
+            number_part = " ".join(parts[parts.index(part):])
+            break
+    if not number_part:
+        return account_info
+
     number = number_part.replace(" ", "")
     try:
         if card_type in ["visa", "mastercard", "maestro", "мир"]:
@@ -47,3 +54,7 @@ def get_date(date_str: str) -> str:
         year, month, day = match.groups()
         return f"{day}.{month}.{year}"
     return date_str
+
+if __name__ == "__main__":
+    card = "Visa Classic 1234567890123456"
+    print(mask_account_card(card))
