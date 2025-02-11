@@ -2,43 +2,39 @@ import pytest
 
 from src.masks import get_mask_account, get_mask_card_number
 
+# Определите наборы тестовых данных
+card_tests = [
+    ("1234567890123456", "1234 56** **** 3456"),
+    ("9876543210987654", "9876 54** **** 7654"),
+]
 
-@pytest.mark.parametrize("input_data, expected_output")
-def test_get_mask_card_number(input_data: str, expected_output: str):
-    assert get_mask_card_number(input_data) == expected_output
+account_tests = [
+    ("1234567890", "**7890"),
+    ("0987654321", "**4321"),
+]
 
+invalid_nums = ["123"]
 
-@pytest.mark.parametrize("input_data, expected_output")
-def test_get_mask_account(input_data: str, expected_output: str):
-    assert get_mask_account(input_data) == expected_output
+@pytest.mark.parametrize(
+    (
+            "input_data",
+            "expected_output",
+    ),
+    card_tests + account_tests,
+)
+def test_get_masks(input_data: str,
+                   expected_output: str):
+    if len(input_data) > 10:
+        result = get_mask_card_number(input_data)
+    else:
+        result = get_mask_account(input_data)
+
+    assert result == expected_output
 
 
 # Тест на невалидные данные
-@pytest.mark.parametrize("invalid_input")
-def test_invalid_input(invalid_input: str):
+@pytest.mark.parametrize("invalid_input",
+                         invalid_nums)
+def test_invalid_inputs(invalid_input: str):
     with pytest.raises(ValueError):
-        get_mask_card_number(invalid_input)
-
-    with pytest.raises(ValueError):
-        get_mask_account(invalid_input)
-
-def test_get_mask_card_number(
-    valid_card_number: str, another_valid_card_number: str, invalid_number: str
-) -> None:
-    """Тестирует функцию get_mask_card_number с использованием фикстур."""
-    assert get_mask_card_number(valid_card_number) == "1234 56** **** 3456"
-    assert get_mask_card_number(another_valid_card_number) == "9876 54** **** 7654"
-
-    with pytest.raises(ValueError):
-        get_mask_card_number(invalid_number)
-
-
-def test_get_mask_account(
-    valid_account_number: str, another_valid_account_number: str, invalid_number: str
-) -> None:
-    """Тестирует функцию get_mask_account с использованием фикстур."""
-    assert get_mask_account(valid_account_number) == "**7890"
-    assert get_mask_account(another_valid_account_number) == "**4321"
-
-    with pytest.raises(ValueError):
-        get_mask_account(invalid_number)
+        get_mask_card_number(invalid_id)

@@ -51,3 +51,24 @@ def another_valid_account_number() -> str:
 @pytest.fixture
 def invalid_number() -> str:
     return ["123"]
+
+# Фикстура для набора тестовых данных по карточкам
+@pytest.fixture(params=[
+    ("1234567890123456", "1234 56** **** 3456"),
+    ("9876543210987654", "9876 54** **** 7654"),
+])
+def card_test_cases(request):
+    return request.param
+
+# Фикстура для набора тестовых данных по счетам
+@pytest.fixture(params=[
+    ("1234567890", "**7890"),
+    ("0987654321", "**4321"),
+])
+def account_test_cases(request):
+    return request.param
+
+# Фикстура для невалидных номеров
+@pytest.fixture(params=["123"])
+def invalid_numbers(request):
+    return request.param
