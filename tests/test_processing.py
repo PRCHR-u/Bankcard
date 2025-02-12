@@ -26,7 +26,7 @@ def test_filter_by_state(test_data: List[Dict[str, Any]],
 def test_filter_by_state_empty_data() -> None:
     """Тестирует функцию filter_by_state с пустыми данными."""
     data: List[Dict[str, Any]] = []
-    filtered_data = filter_by_state(data.copy(), state="EXECUTED") or []
+    filtered_data = filter_by_state(data.copy(), state="EXECUTED")
     assert filtered_data == []
 
 
