@@ -1,6 +1,7 @@
 import pytest
 
 from src.masks import get_mask_account, get_mask_card_number
+from tests.conftest import invalid_number
 
 # Определите наборы тестовых данных
 card_tests = [
@@ -35,6 +36,6 @@ def test_get_masks(input_data: str,
 # Тест на невалидные данные
 @pytest.mark.parametrize("invalid_input",
                          invalid_nums)
-def test_invalid_inputs(invalid_input: str):
+def test_invalid_inputs(invalid_input: str, invalid_number):
     with pytest.raises(ValueError):
-        get_mask_card_number(invalid_id)
+        get_mask_card_number(invalid_number)

@@ -2,13 +2,13 @@ import pytest
 from typing import List, Dict, Any
 
 # Фикстура для тестовых данных
-@pytest.fixture
-def test_data() -> list[dict[str, str | int] | dict[str, str | int] | dict[str, str | int] | dict[str, str | int]]:
+@pytest.fixture()
+def test_data():
     return [
-        {"id": 414, "state": "EXECUTED", "date": "2019-07-03T18:35:29.512364"},
-        {"id": 939, "state": "EXECUTED", "date": "2018-06-30T02:08:58.425572"},
-        {"id": 594, "state": "CANCELED", "date": "2018-09-12T21:27:25.241689"},
-        {"id": 615, "state": "CANCELED", "date": "2018-10-14T08:21:33.419441"},
+        {"id": 414, "state": "EXECUTED", "date": "2019-08-26T10:50:58.294041"},
+        {"id": 939, "state": "EXECUTED", "date": "2019-08-26T10:51:25.917491"},
+        {"id": 594, "state": "CANCELED", "date": "2019-08-26T10:51:30.273718"},
+        {"id": 615, "state": "CANCELED", "date": "2019-08-26T10:51:34.139194"},
     ]
 
 # Фикстура для генерации тестовых данных для mask_account_card
