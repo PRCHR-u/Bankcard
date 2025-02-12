@@ -55,6 +55,7 @@ def get_date(date_str: str) -> str:
         return f"{day}.{month}.{year}"
     return date_str
 
+
 if __name__ == "__main__":
     card = "Visa Classic 1234567890123456"
     print(mask_account_card(card))
