@@ -1,19 +1,24 @@
 from datetime import datetime
-
-def filter_by_state(data, state):
-    """Filters a list of dictionaries by the 'state' key."""
-    allowed_states = ["EXECUTED", "CANCELED", "PENDING"]  # Define valid states
-    if state not in allowed_states:
-        raise ValueError(f"Invalid state: {state}. Allowed states are: {allowed_states}")
-
-    filtered_data = [item for item in data if item.get("state") == state]
-    return filtered_data
+from typing import Any, Dict, List
 
 
-def sort_by_date(data, reverse=False):
-    """Sorts a list of dictionaries by the 'date' key."""
+def filter_by_state(data: List[Dict[str, Any]], state: str) -> List[Dict[str, Any]]:
+    """Фильтрует данные по состоянию."""
+    if state not in {"EXECUTED", "CANCELED", "PENDING"}:
+        raise ValueError(f"Invalid state: {state}")
+
+    # Return a filtered list based on the 'state' key
+    return [item for item in data if item.get("state") == state]
+
+
+def sort_by_date(data: List[Dict[str, Any]], reverse: bool = True) -> List[Dict[str, Any]]:
+    """Сортирует данные по дате."""
     try:
-        sorted_data = sorted(data, key=lambda x: datetime.fromisoformat(x["date"]), reverse=reverse)
+        # Return a sorted copy of the input data
+        return sorted(
+            data,
+            key=lambda x: datetime.fromisoformat(x["date"]),
+            reverse=reverse
+        )
     except KeyError:
-        raise KeyError("Missing 'date' key in one or more data items") # Raise the KeyError
-    return sorted_data
+        raise KeyError("Missing 'date' key in data")

@@ -29,3 +29,14 @@ pip install -r requirements.txt
 ## Лицензия:
 
 Проект не лицензирован
+
+## Тестирование:
+
+проект покрыт тестами pytest. Для их запуска выполните команду:
+pytest
+
+Тестируются функции get_mask_card_number, get_mask_account, mask_account_card, filter_by_state, get_date, sort_by_date
+
+Тесты используют фикстуры из файла conftest.py
+
+Каждый модуль имеет собственный файл тестирования. Все тесты параметризованы.
