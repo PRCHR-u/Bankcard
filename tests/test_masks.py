@@ -3,7 +3,6 @@ import pytest
 from src.masks import get_mask_account, get_mask_card_number
 from tests.conftest import invalid_number
 
-# Определите наборы тестовых данных
 card_tests = [
     ("1234567890123456", "1234 56** **** 3456"),
     ("9876543210987654", "9876 54** **** 7654"),

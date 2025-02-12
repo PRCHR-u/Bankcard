@@ -37,8 +37,6 @@ def test_get_date(input_data, expected_output):
      в формат 'ДД.ММ.ГГГГ'.
      """
 
-    # Получаем входные данные из фикстуры
-
     result = get_date(input_data)
 
     assert result == expected_output, f"Ошибка при обработке даты {input_data}"
