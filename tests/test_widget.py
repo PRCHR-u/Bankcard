@@ -1,24 +1,44 @@
+import pytest
 from src.widget import mask_account_card, get_date
 
 
-def test_mask_account_card_mastercard():
-    assert (mask_account_card("Mastercard 9876543210987654"), "Mastercard 9876 54** **** 7654")
+# Параметризация для mask_account_card
+@pytest.mark.parametrize("input_data, expected_output", [
+    ("Visa Classic 1234567890123456", "Visa 1234 56** **** 3456"),
+    ("MasterCard Standard 9876543210987654", "MasterCard 9876 54** **** 7654"),
+    ("Счет 40817810999910000001", "Счет **0001"),
+    ("UnknownType 1234567890123456", "UnknownType 1234567890123456"),
+    ("Visa Electron 1111", "Visa Electron 1111")
+])
+def test_mask_account_card(input_data, expected_output):
+    """
+    Тестирует функцию mask_account_card.
 
-def test_mask_account_card_maestro():
-    assert (mask_account_card("Maestro 1234567890123456"), "Maestro 1234 56** **** 3456")
+     Проверяет корректность маскировки номеров карт и счетов.
+     """
 
-def test_mask_account_card_account():
-    assert (mask_account_card("Visa Gold 12345678901234567890"), "Visa Gold **34567890** ****7890")
+    result = mask_account_card(input_data)
 
-def test_mask_account_card_spaces_in_number():
-    assert (mask_account_card("Visa 1234 5678 9012 3456"), "Visa 1234 56** **** 3456")
+    assert result == expected_output, f"Ошибка при обработке {input_data}"
 
-def test_get_date_with_time():
-    assert (get_date("2023-10-26T10:30:00"), "26.10.2023")
 
-def test_get_date_without_time():
-    assert (get_date("2023-11-15"), "15.11.2023")
+# Параметризация для get_date
+@pytest.mark.parametrize("input_data, expected_output", [
+    ("2023-09-15T12:34:56+03:00", "15.09.2023"),
+    ("2023-09-15", "15.09.2023"),
+    ("2023-09-15T12:34:56Z", "15.09.2023"),
+    ("invalid-date", "invalid-date")
+])
+def test_get_date(input_data, expected_output):
+    """
+     Тестирует функцию get_date.
 
-def test_get_date_invalid_format():
-        assert (get_date("26/10/2023"), "26/10/2023")
+     Проверяет корректность преобразования даты из формата ISO
+     в формат 'ДД.ММ.ГГГГ'.
+     """
 
+    # Получаем входные данные из фикстуры
+
+    result = get_date(input_data)
+
+    assert result == expected_output, f"Ошибка при обработке даты {input_data}"
