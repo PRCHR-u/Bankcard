@@ -63,8 +63,9 @@ def test_filter_invalid_state(test_data: List[Dict[str, Any]]) -> None:
     ],
 )
 def test_sort_by_date(
-    test_data: List[Dict[str, Any]], reverse: bool,
-        expected_ids: List[int], expected_dates: List[datetime]
+    test_data: List[Dict[str, Any]],
+        reverse: bool, expected_ids: List[int],
+        expected_dates: List[datetime]
 ) -> None:
     """Тестирует функцию sort_by_date."""
     sorted_data = sort_by_date(test_data.copy(), reverse=reverse) or []
