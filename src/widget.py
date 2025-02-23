@@ -21,7 +21,7 @@ def mask_account_card(account_info: str) -> str:
     number_part = " "
     for part in parts[1:]:
         if any(char.isdigit() for char in part):
-            number_part = " ".join(parts[parts.index(part) :])
+            number_part = " ".join(parts[parts.index(part):])
             break
     if not number_part:
         return account_info

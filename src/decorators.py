@@ -1,54 +1,43 @@
-import functools
 import logging
-from typing import Callable, Any, Optional
-from typing import Generator, List, Dict
-from black import datetime
 import re
+from functools import wraps
+from typing import Any, Dict, Generator, List
+
+from black import datetime
 
 
-def log(filename: Optional[str] = None) -> Callable:
-    """
-    Декоратор для логирования выполнения функций.
-
-    :param filename: Имя файла для записи логов. Если None, логи выводятся в консоль.
-    :return: Декорированная функция.
-    """
-
-    def decorator(func: Callable) -> Callable:
-        @functools.wraps(func)
-        def wrapper(*args, **kwargs) -> Any:
-            # Настройка логирования
+def log(filename=None):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            # Configure logging
             logger = logging.getLogger(func.__name__)
             logger.setLevel(logging.INFO)
+            formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 
             if filename:
-                handler = logging.FileHandler(filename)
+                file_handler = logging.FileHandler(filename)
+                file_handler.setFormatter(formatter)
+                logger.addHandler(file_handler)
             else:
-                handler = logging.StreamHandler()
-
-            formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-            handler.setFormatter(formatter)
-            logger.addHandler(handler)
+                console_handler = logging.StreamHandler()
+                console_handler.setFormatter(formatter)
+                logger.addHandler(console_handler)
 
             try:
-                # Логирование начала выполнения функции
+                # Log function start
                 logger.info(f"{func.__name__} started. Inputs: args={args}, kwargs={kwargs}")
 
-                # Выполнение функции
+                # Call the original function
                 result = func(*args, **kwargs)
 
-                # Логирование успешного выполнения функции
+                # Log function success
                 logger.info(f"{func.__name__} ok. Result: {result}")
-
                 return result
             except Exception as e:
-                # Логирование ошибки
+                # Log function error
                 logger.error(f"{func.__name__} error: {type(e).__name__}. Inputs: args={args}, kwargs={kwargs}")
-                raise e
-            finally:
-                # Удаление обработчика, чтобы избежать дублирования логов
-                logger.removeHandler(handler)
-                handler.close()
+                raise
 
         return wrapper
 
@@ -181,9 +170,11 @@ def get_mask_account(account_number: str) -> str:
     Returns:
         Маскированный номер счета.
     """
+    print(f"Input: {account_number}, Type: {type(account_number)}, Length: {len(account_number)}")
     if not isinstance(account_number, str) or len(account_number) < 4:
         raise ValueError("Неверный формат номера счета.")
     return f"**{account_number[-4:]}"
+
 
 @log(filename="mylog.txt")
 def mask_account_card(account_info: str) -> str:
@@ -201,7 +192,7 @@ def mask_account_card(account_info: str) -> str:
     number_part = ""
     for part in parts[1:]:
         if any(char.isdigit() for char in part):
-            number_part = " ".join(parts[parts.index(part):])
+            number_part = " ".join(parts[parts.index(part) :])
             break
     if not number_part:
         return account_info
@@ -215,6 +206,7 @@ def mask_account_card(account_info: str) -> str:
             return account_info
     except ValueError:
         return account_info
+
 
 @log(filename="mylog.txt")
 def get_date(date_str: str) -> str:
@@ -231,6 +223,7 @@ def get_date(date_str: str) -> str:
         year, month, day = match.groups()
         return f"{day}.{month}.{year}"
     return date_str
+
 
 if __name__ == "__main__":
     card = "Visa Classic 1234567890123456"

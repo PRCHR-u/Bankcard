@@ -1,18 +1,17 @@
 from typing import Any, Dict, Generator, List
 
 
-def filter_by_currency(transactions: List[Dict[str, Any]],
-                       currency: str) -> Generator[Dict[str, Any], None, None]:
+def filter_by_currency(transactions: List[Dict[str, Any]], currency: str) -> Generator[Dict[str, Any], None, None]:
     """Генератор для фильтрации транзакций по валюте."""
     for transaction in transactions:
-        transaction_currency = transaction.get(
-            "operationAmount", {}).get("currency", {}).get("code")
+        transaction_currency = transaction.get("operationAmount", {}).get("currency", {}).get("code")
         if transaction_currency == currency:
             yield transaction
 
 
-def transaction_descriptions(transactions: List[Dict[str, Any]]) \
-        -> Generator[str, None, None]:
+def transaction_descriptions(
+        transactions: List[Dict[str, Any]]
+) -> Generator[str, None, None]:
     """Генератор для получения описаний транзакций."""
     for transaction in transactions:
         description = transaction.get("description")
@@ -31,9 +30,7 @@ def card_number_generator(start: int, stop: int) -> Generator[str, None, None]:
     if start < 1:
         raise ValueError("Start value must be at least 1")
     if stop > 9999999999999999:
-        raise ValueError(
-            "Stop value must not exceed 9999999999999999"
-        )
+        raise ValueError("Stop value must not exceed 9999999999999999")
     if start > stop:
         raise ValueError("Start value must be less than or equal to stop value")
 
