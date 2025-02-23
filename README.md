@@ -96,7 +96,7 @@ print(descriptions)
 
 ##### 3. Фильтрация транзакций по валюте
 
-```from src.generators import filter_by_currency
+``from src.generators import filter_by_currency
 transactions = [
     {"id": 1, "currency": "USD", "amount": 100},
     {"id": 2, "currency": "RUB", "amount": 5000},
@@ -104,5 +104,25 @@ transactions = [
 ]
 usd_transactions = filter_by_currency(transactions, "USD")
 print(usd_transactions)
-# Вывод:
-# [1, 3]```
+Вывод:
+[1, 3]``
+
+### decorators.py
+
+Модуль decorators.py содержит декораторы для улучшения функциональности и логирования.
+
+#### Декоратор log
+Декоратор log автоматически логирует начало и конец выполнения функции, а также ее результаты или возникшие ошибки.
+
+Параметры:
+
+filename (Optional[str]): Имя файла для записи логов. Если None, логи выводятся в консоль.
+
+Пример использования:
+```from bankcard.decorators import log
+
+@log(filename="mylog.txt")
+def my_function(x, y):
+    return x + y
+
+my_function(1, 2)```
