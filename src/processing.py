@@ -15,10 +15,7 @@ def sort_by_date(data: List[Dict[str, Any]], reverse: bool = True) -> List[Dict[
     """Сортирует данные по дате."""
     try:
         # Return a sorted copy of the input data
-        return sorted(
-            data,
-            key=lambda x: datetime.fromisoformat(x["date"]),
-            reverse=reverse
-        )
+        return sorted(data, key=lambda x: datetime.fromisoformat(x["date"]),
+                      reverse=reverse)
     except KeyError:
         raise KeyError("Missing 'date' key in data")
