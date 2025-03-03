@@ -1454,3 +1454,855 @@
 2025-02-23 19:16:30,621 - get_date - INFO - get_date ok. Result: invalid-date
 2025-02-23 19:16:30,621 - get_date - INFO - get_date ok. Result: invalid-date
 2025-02-23 19:16:30,621 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:37:43,790 - card_number_generator - INFO - card_number_generator started. Inputs: args=(0, 1000), kwargs={}
+2025-03-03 16:37:43,791 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2130>
+2025-03-03 16:37:43,796 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:37:43,796 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:37:43,796 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD1E00>
+2025-03-03 16:37:43,796 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD1E00>
+2025-03-03 16:37:43,799 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:37:43,799 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:37:43,799 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:37:43,799 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2240>
+2025-03-03 16:37:43,799 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2240>
+2025-03-03 16:37:43,799 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2240>
+2025-03-03 16:37:43,802 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:37:43,802 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:37:43,802 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:37:43,802 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:37:43,802 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD19C0>
+2025-03-03 16:37:43,802 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD19C0>
+2025-03-03 16:37:43,802 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD19C0>
+2025-03-03 16:37:43,802 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD19C0>
+2025-03-03 16:37:43,804 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,804 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,804 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,804 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,804 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,804 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2240>
+2025-03-03 16:37:43,804 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2240>
+2025-03-03 16:37:43,804 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2240>
+2025-03-03 16:37:43,804 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2240>
+2025-03-03 16:37:43,804 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2240>
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,807 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,812 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D37FCD2570>
+2025-03-03 16:37:43,840 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:37:43,840 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:37:43,842 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}], 'GBP'), kwargs={}
+2025-03-03 16:37:43,842 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}], 'GBP'), kwargs={}
+2025-03-03 16:37:43,843 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:37:43,843 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:37:43,845 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:37:43,845 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:37:43,845 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:37:43,845 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:37:43,845 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:37:43,845 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:37:43,847 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:37:43,847 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:37:43,847 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:37:43,847 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:37:43,847 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:37:43,847 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:37:43,847 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:37:43,847 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:37:43,853 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:37:43,853 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:37:43,853 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:37:43,853 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:37:43,853 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:37:43,853 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:37:43,853 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:37:43,853 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:37:43,853 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:37:43,853 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:37:43,864 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:37:43,864 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:37:43,868 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:37:43,868 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:37:43,869 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:37:43,869 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:37:43,871 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:37:43,871 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:37:43,871 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:37:43,872 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:37:43,872 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:37:43,872 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:37:43,874 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:37:43,875 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:37:43,878 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:37:43,878 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:37:43,878 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:37:43,878 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:37:43,882 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:37:43,882 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:37:43,882 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:37:43,882 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:37:43,882 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:37:43,882 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:37:43,884 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Visa Classic 1234567890123456',), kwargs={}
+2025-03-03 16:37:43,885 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:37:43,885 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:37:43,885 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:37:43,885 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:37:43,885 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:37:43,885 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:37:43,885 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:37:43,885 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:37:43,885 - mask_account_card - INFO - mask_account_card ok. Result: Visa 1234 56** **** 3456
+2025-03-03 16:37:43,887 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:37:43,887 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:37:43,888 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:37:43,888 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:37:43,888 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:37:43,888 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:37:43,889 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:37:43,889 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:37:43,889 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:37:43,889 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:37:43,889 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:37:43,889 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:37:43,893 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:37:43,893 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:37:43,893 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:37:43,894 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:37:43,894 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:37:43,894 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:37:43,896 - get_date - INFO - get_date started. Inputs: args=('2023-09-15T12:34:56Z',), kwargs={}
+2025-03-03 16:37:43,897 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:37:43,900 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:37:43,900 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:37:43,900 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:37:43,900 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:37:43,903 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:37:43,903 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:37:43,903 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:37:43,903 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:37:43,903 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:37:43,903 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:46:01,244 - card_number_generator - INFO - card_number_generator started. Inputs: args=(0, 1000), kwargs={}
+2025-03-03 16:46:01,245 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D7A0>
+2025-03-03 16:46:01,250 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:46:01,250 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:46:01,251 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D470>
+2025-03-03 16:46:01,251 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D470>
+2025-03-03 16:46:01,256 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:46:01,256 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:46:01,256 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:46:01,256 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D8B0>
+2025-03-03 16:46:01,256 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D8B0>
+2025-03-03 16:46:01,256 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D8B0>
+2025-03-03 16:46:01,260 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:46:01,260 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:46:01,260 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:46:01,260 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:46:01,260 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D030>
+2025-03-03 16:46:01,260 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D030>
+2025-03-03 16:46:01,260 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D030>
+2025-03-03 16:46:01,260 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D030>
+2025-03-03 16:46:01,262 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,262 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,262 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,262 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,262 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,263 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D8B0>
+2025-03-03 16:46:01,263 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D8B0>
+2025-03-03 16:46:01,263 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D8B0>
+2025-03-03 16:46:01,263 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D8B0>
+2025-03-03 16:46:01,263 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870D8B0>
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,266 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,272 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000002BA9870DBE0>
+2025-03-03 16:46:01,310 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:46:01,310 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:46:01,312 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}], 'GBP'), kwargs={}
+2025-03-03 16:46:01,312 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}], 'GBP'), kwargs={}
+2025-03-03 16:46:01,312 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:46:01,312 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:46:01,315 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:46:01,315 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:46:01,315 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:46:01,315 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:46:01,315 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:46:01,315 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:46:01,319 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:46:01,319 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:46:01,319 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:46:01,319 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:46:01,319 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:46:01,319 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:46:01,319 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:46:01,319 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:46:01,324 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:46:01,324 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:46:01,324 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:46:01,324 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:46:01,324 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:46:01,325 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:46:01,325 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:46:01,325 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:46:01,325 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:46:01,325 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:46:01,338 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:46:01,338 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:46:01,342 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:46:01,342 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:46:01,342 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:46:01,342 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:46:01,344 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:46:01,344 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:46:01,344 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:46:01,344 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:46:01,344 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:46:01,344 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:46:01,346 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:46:01,346 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:46:01,349 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:46:01,349 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:46:01,350 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:46:01,350 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:46:01,353 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:46:01,353 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:46:01,353 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:46:01,353 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:46:01,353 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:46:01,353 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:46:01,356 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Visa Classic 1234567890123456',), kwargs={}
+2025-03-03 16:46:01,357 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:46:01,357 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:46:01,357 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:46:01,357 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:46:01,357 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:46:01,357 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:46:01,357 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:46:01,357 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:46:01,357 - mask_account_card - INFO - mask_account_card ok. Result: Visa 1234 56** **** 3456
+2025-03-03 16:46:01,359 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:46:01,359 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:46:01,360 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:46:01,360 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:46:01,360 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:46:01,360 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:46:01,360 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:46:01,360 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:46:01,360 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:46:01,360 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:46:01,360 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:46:01,360 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:46:01,363 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:46:01,363 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:46:01,363 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:46:01,363 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:46:01,363 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:46:01,363 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:46:01,365 - get_date - INFO - get_date started. Inputs: args=('2023-09-15T12:34:56Z',), kwargs={}
+2025-03-03 16:46:01,366 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:46:01,369 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:46:01,369 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:46:01,369 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:46:01,369 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:46:01,372 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:46:01,372 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:46:01,372 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:46:01,372 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:46:01,372 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:46:01,372 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:50:05,526 - card_number_generator - INFO - card_number_generator started. Inputs: args=(0, 1000), kwargs={}
+2025-03-03 16:50:05,526 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596460>
+2025-03-03 16:50:05,531 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:50:05,531 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:50:05,531 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596130>
+2025-03-03 16:50:05,531 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596130>
+2025-03-03 16:50:05,535 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:50:05,535 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:50:05,535 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:50:05,535 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596570>
+2025-03-03 16:50:05,535 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596570>
+2025-03-03 16:50:05,535 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596570>
+2025-03-03 16:50:05,538 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:50:05,538 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:50:05,538 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:50:05,538 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:50:05,538 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790595CF0>
+2025-03-03 16:50:05,538 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790595CF0>
+2025-03-03 16:50:05,538 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790595CF0>
+2025-03-03 16:50:05,538 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790595CF0>
+2025-03-03 16:50:05,540 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,540 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,540 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,540 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,540 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,541 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596570>
+2025-03-03 16:50:05,541 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596570>
+2025-03-03 16:50:05,541 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596570>
+2025-03-03 16:50:05,541 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596570>
+2025-03-03 16:50:05,541 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000026790596570>
+2025-03-03 16:50:05,543 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:50:05,543 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:50:05,543 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:50:05,543 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:50:05,543 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:50:05,543 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:50:05,544 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,544 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,544 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,544 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,544 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,544 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,548 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,548 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,548 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,548 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,548 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,548 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,548 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:50:05,549 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,549 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,549 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,549 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,549 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,549 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,549 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x00000267905968A0>
+2025-03-03 16:50:05,577 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:50:05,577 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:50:05,581 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}], 'GBP'), kwargs={}
+2025-03-03 16:50:05,581 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}], 'GBP'), kwargs={}
+2025-03-03 16:50:05,581 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:50:05,581 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:50:05,584 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:50:05,584 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:50:05,584 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:50:05,584 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:50:05,584 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:50:05,584 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:50:05,588 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:50:05,588 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:50:05,588 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:50:05,588 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:50:05,588 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:50:05,588 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:50:05,588 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:50:05,588 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:50:05,595 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:50:05,595 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:50:05,595 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:50:05,595 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:50:05,595 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:50:05,595 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:50:05,595 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:50:05,595 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:50:05,595 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:50:05,595 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:50:05,606 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:50:05,606 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:50:05,609 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:50:05,609 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:50:05,609 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:50:05,609 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:50:05,613 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:50:05,613 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:50:05,613 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:50:05,613 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:50:05,613 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:50:05,613 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:50:05,616 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:50:05,616 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:50:05,619 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:50:05,619 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:50:05,620 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:50:05,620 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:50:05,622 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:50:05,622 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:50:05,622 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:50:05,622 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:50:05,622 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:50:05,622 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:50:05,626 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Visa Classic 1234567890123456',), kwargs={}
+2025-03-03 16:50:05,626 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:50:05,626 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:50:05,626 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:50:05,626 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:50:05,627 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:50:05,627 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:50:05,627 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:50:05,627 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:50:05,627 - mask_account_card - INFO - mask_account_card ok. Result: Visa 1234 56** **** 3456
+2025-03-03 16:50:05,629 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:50:05,629 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:50:05,630 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:50:05,630 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:50:05,630 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:50:05,630 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:50:05,630 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:50:05,630 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:50:05,630 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:50:05,630 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:50:05,630 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:50:05,630 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:50:05,633 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:50:05,633 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:50:05,633 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:50:05,634 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:50:05,634 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:50:05,634 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:50:05,636 - get_date - INFO - get_date started. Inputs: args=('2023-09-15T12:34:56Z',), kwargs={}
+2025-03-03 16:50:05,637 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:50:05,640 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:50:05,640 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:50:05,640 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:50:05,640 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:50:05,643 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:50:05,643 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:50:05,643 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:50:05,643 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:50:05,643 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:50:05,643 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:56:12,744 - card_number_generator - INFO - card_number_generator started. Inputs: args=(0, 1000), kwargs={}
+2025-03-03 16:56:12,745 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2130>
+2025-03-03 16:56:12,748 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:56:12,748 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:56:12,748 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB1E00>
+2025-03-03 16:56:12,748 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB1E00>
+2025-03-03 16:56:12,753 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:56:12,753 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:56:12,753 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:56:12,753 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2240>
+2025-03-03 16:56:12,753 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2240>
+2025-03-03 16:56:12,753 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2240>
+2025-03-03 16:56:12,755 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:56:12,755 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:56:12,755 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:56:12,755 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:56:12,756 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB19C0>
+2025-03-03 16:56:12,756 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB19C0>
+2025-03-03 16:56:12,756 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB19C0>
+2025-03-03 16:56:12,756 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB19C0>
+2025-03-03 16:56:12,758 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,758 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,758 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,758 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,758 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,758 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2240>
+2025-03-03 16:56:12,758 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2240>
+2025-03-03 16:56:12,758 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2240>
+2025-03-03 16:56:12,758 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2240>
+2025-03-03 16:56:12,758 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2240>
+2025-03-03 16:56:12,761 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:56:12,761 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:56:12,761 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:56:12,761 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:56:12,761 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:56:12,761 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:56:12,762 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,762 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,762 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,762 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,762 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,762 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,768 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000020D7FDB2570>
+2025-03-03 16:56:12,796 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:56:12,796 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:56:12,799 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}], 'GBP'), kwargs={}
+2025-03-03 16:56:12,799 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}], 'GBP'), kwargs={}
+2025-03-03 16:56:12,799 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:56:12,799 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:56:12,801 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:56:12,801 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:56:12,801 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:56:12,801 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:56:12,801 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:56:12,801 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:56:12,803 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:56:12,803 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:56:12,803 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:56:12,803 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:56:12,803 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:56:12,803 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:56:12,803 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:56:12,803 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:56:12,811 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:56:12,811 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:56:12,811 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:56:12,811 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:56:12,811 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:56:12,811 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:56:12,811 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:56:12,811 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:56:12,811 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:56:12,811 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:56:12,822 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:56:12,822 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:56:12,824 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:56:12,824 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:56:12,825 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:56:12,825 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:56:12,828 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:56:12,828 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:56:12,828 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:56:12,828 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:56:12,828 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:56:12,828 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:56:12,831 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:56:12,831 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:56:12,834 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:56:12,834 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:56:12,834 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:56:12,834 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:56:12,837 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:56:12,837 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:56:12,837 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:56:12,837 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:56:12,837 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:56:12,837 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:56:12,840 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Visa Classic 1234567890123456',), kwargs={}
+2025-03-03 16:56:12,840 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:56:12,840 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:56:12,840 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:56:12,840 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:56:12,841 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:56:12,841 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:56:12,841 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:56:12,841 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:56:12,841 - mask_account_card - INFO - mask_account_card ok. Result: Visa 1234 56** **** 3456
+2025-03-03 16:56:12,844 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:56:12,844 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:56:12,845 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:56:12,845 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:56:12,845 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:56:12,845 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:56:12,845 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:56:12,845 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:56:12,845 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:56:12,845 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:56:12,845 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:56:12,845 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:56:12,848 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:56:12,848 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:56:12,848 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:56:12,848 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:56:12,848 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:56:12,848 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:56:12,851 - get_date - INFO - get_date started. Inputs: args=('2023-09-15T12:34:56Z',), kwargs={}
+2025-03-03 16:56:12,852 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:56:12,855 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:56:12,855 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:56:12,855 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:56:12,855 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:56:12,858 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:56:12,858 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:56:12,858 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:56:12,858 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:56:12,858 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:56:12,858 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:58:05,033 - card_number_generator - INFO - card_number_generator started. Inputs: args=(0, 1000), kwargs={}
+2025-03-03 16:58:05,034 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A350>
+2025-03-03 16:58:05,037 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:58:05,037 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:58:05,037 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A020>
+2025-03-03 16:58:05,037 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A020>
+2025-03-03 16:58:05,040 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:58:05,040 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:58:05,040 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:58:05,041 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A460>
+2025-03-03 16:58:05,041 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A460>
+2025-03-03 16:58:05,041 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A460>
+2025-03-03 16:58:05,044 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:58:05,044 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:58:05,044 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:58:05,044 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:58:05,044 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D388889BE0>
+2025-03-03 16:58:05,044 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D388889BE0>
+2025-03-03 16:58:05,044 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D388889BE0>
+2025-03-03 16:58:05,044 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D388889BE0>
+2025-03-03 16:58:05,047 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,047 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,047 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,047 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,047 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,047 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A460>
+2025-03-03 16:58:05,047 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A460>
+2025-03-03 16:58:05,047 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A460>
+2025-03-03 16:58:05,047 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A460>
+2025-03-03 16:58:05,047 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A460>
+2025-03-03 16:58:05,050 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:05,050 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:05,050 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:05,050 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:05,050 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:05,050 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:05,051 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,051 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,051 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,051 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,051 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,051 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,056 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,056 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,056 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,056 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,056 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,056 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,056 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:05,057 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,057 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,057 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,057 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,057 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,057 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,057 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x000001D38888A790>
+2025-03-03 16:58:05,087 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:58:05,088 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:58:05,090 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}], 'GBP'), kwargs={}
+2025-03-03 16:58:05,090 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}], 'GBP'), kwargs={}
+2025-03-03 16:58:05,090 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:58:05,090 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:58:05,093 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:58:05,093 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:58:05,093 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([], 'USD'), kwargs={}
+2025-03-03 16:58:05,093 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:58:05,093 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:58:05,093 - filter_by_currency - INFO - filter_by_currency ok. Result: []
+2025-03-03 16:58:05,096 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:58:05,096 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:58:05,096 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:58:05,096 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'amount': 100}, {'id': 2, 'currency': 'USD', 'amount': 200}, {'id': 3, 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:58:05,096 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:58:05,096 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:58:05,096 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:58:05,096 - filter_by_currency - INFO - filter_by_currency ok. Result: [2]
+2025-03-03 16:58:05,103 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:58:05,103 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:58:05,103 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:58:05,103 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:58:05,103 - filter_by_currency - INFO - filter_by_currency started. Inputs: args=([{'id': 1, 'currency': 'USD', 'amount': 100}, {'id': 2, 'currency': 'EUR', 'amount': 200}, {'id': 3, 'currency': 'USD', 'amount': 150}], 'USD'), kwargs={}
+2025-03-03 16:58:05,103 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:58:05,103 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:58:05,103 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:58:05,103 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:58:05,103 - filter_by_currency - INFO - filter_by_currency ok. Result: [1, 3]
+2025-03-03 16:58:05,115 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:05,115 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:58:05,119 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:58:05,119 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:58:05,120 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:58:05,120 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=('12345',), kwargs={}
+2025-03-03 16:58:05,124 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:05,124 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:05,124 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:05,124 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:05,124 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:05,124 - get_mask_card_number - ERROR - get_mask_card_number error: ValueError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:05,127 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:05,127 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:58:05,131 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:58:05,131 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:58:05,132 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:58:05,132 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:58:05,134 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:58:05,134 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:58:05,134 - get_mask_account - INFO - get_mask_account started. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:58:05,135 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:58:05,135 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:58:05,135 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=([1, 2, 3, 4],), kwargs={}
+2025-03-03 16:58:05,138 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Visa Classic 1234567890123456',), kwargs={}
+2025-03-03 16:58:05,139 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:05,139 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:05,139 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:05,139 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:05,139 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:58:05,139 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:58:05,139 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:58:05,139 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:58:05,139 - mask_account_card - INFO - mask_account_card ok. Result: Visa 1234 56** **** 3456
+2025-03-03 16:58:05,142 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:58:05,142 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:58:05,142 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:05,142 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:05,142 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:05,142 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:05,143 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:58:05,143 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:58:05,143 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:58:05,143 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:58:05,143 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:58:05,143 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:58:05,146 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:58:05,146 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:58:05,146 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:58:05,146 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:58:05,146 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:58:05,146 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:58:05,149 - get_date - INFO - get_date started. Inputs: args=('2023-09-15T12:34:56Z',), kwargs={}
+2025-03-03 16:58:05,150 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:58:05,153 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:58:05,153 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:58:05,153 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:58:05,153 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:58:05,156 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:58:05,156 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:58:05,156 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:58:05,156 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:58:05,156 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:58:05,156 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:58:56,431 - card_number_generator - INFO - card_number_generator started. Inputs: args=(0, 1000), kwargs={}
+2025-03-03 16:58:56,431 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62240>
+2025-03-03 16:58:56,436 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:58:56,436 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 10000000000000000), kwargs={}
+2025-03-03 16:58:56,436 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D61F10>
+2025-03-03 16:58:56,436 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D61F10>
+2025-03-03 16:58:56,441 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:58:56,441 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:58:56,441 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1000, 100), kwargs={}
+2025-03-03 16:58:56,441 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62350>
+2025-03-03 16:58:56,441 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62350>
+2025-03-03 16:58:56,441 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62350>
+2025-03-03 16:58:56,443 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:58:56,443 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:58:56,443 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:58:56,443 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 1), kwargs={}
+2025-03-03 16:58:56,444 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D61AD0>
+2025-03-03 16:58:56,444 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D61AD0>
+2025-03-03 16:58:56,444 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D61AD0>
+2025-03-03 16:58:56,444 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D61AD0>
+2025-03-03 16:58:56,446 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,446 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,446 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,446 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,446 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,446 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62350>
+2025-03-03 16:58:56,446 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62350>
+2025-03-03 16:58:56,446 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62350>
+2025-03-03 16:58:56,446 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62350>
+2025-03-03 16:58:56,446 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62350>
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator started. Inputs: args=(9999999999999997, 9999999999999999), kwargs={}
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,448 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator started. Inputs: args=(1, 3), kwargs={}
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,453 - card_number_generator - INFO - card_number_generator ok. Result: <generator object card_number_generator at 0x0000015E28D62680>
+2025-03-03 16:58:56,479 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:56,480 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:58:56,484 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:58:56,484 - get_mask_account - INFO - get_mask_account started. Inputs: args=('123',), kwargs={}
+2025-03-03 16:58:56,484 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:58:56,484 - get_mask_account - ERROR - get_mask_account error: ValueError. Inputs: args=('123',), kwargs={}
+2025-03-03 16:58:56,488 - get_mask_account - INFO - get_mask_account started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:56,488 - get_mask_account - INFO - get_mask_account started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:56,488 - get_mask_account - INFO - get_mask_account started. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:56,488 - get_mask_account - ERROR - get_mask_account error: TypeError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:56,488 - get_mask_account - ERROR - get_mask_account error: TypeError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:56,488 - get_mask_account - ERROR - get_mask_account error: TypeError. Inputs: args=(1234567890123456,), kwargs={}
+2025-03-03 16:58:56,566 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Visa Classic 1234567890123456',), kwargs={}
+2025-03-03 16:58:56,566 - get_mask_card_number - INFO - get_mask_card_number started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:56,566 - get_mask_card_number - INFO - get_mask_card_number ok. Result: 1234 56** **** 3456
+2025-03-03 16:58:56,566 - mask_account_card - INFO - mask_account_card ok. Result: Visa 1234 56** **** 3456
+2025-03-03 16:58:56,582 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:58:56,582 - mask_account_card - INFO - mask_account_card started. Inputs: args=('—чет 1234567890123456',), kwargs={}
+2025-03-03 16:58:56,583 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:56,583 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:56,583 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:56,583 - get_mask_account - INFO - get_mask_account started. Inputs: args=('1234567890123456',), kwargs={}
+2025-03-03 16:58:56,583 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:58:56,583 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:58:56,583 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:58:56,583 - get_mask_account - INFO - get_mask_account ok. Result: **3456
+2025-03-03 16:58:56,584 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:58:56,584 - mask_account_card - INFO - mask_account_card ok. Result: —чет **3456
+2025-03-03 16:58:56,587 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:58:56,587 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:58:56,587 - mask_account_card - INFO - mask_account_card started. Inputs: args=('Invalid 1234',), kwargs={}
+2025-03-03 16:58:56,587 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:58:56,587 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:58:56,587 - mask_account_card - INFO - mask_account_card ok. Result: Invalid 1234
+2025-03-03 16:58:56,591 - get_date - INFO - get_date started. Inputs: args=('2023-09-15T12:34:56Z',), kwargs={}
+2025-03-03 16:58:56,592 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:58:56,595 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:58:56,595 - get_date - INFO - get_date started. Inputs: args=('2023-09-15',), kwargs={}
+2025-03-03 16:58:56,595 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:58:56,595 - get_date - INFO - get_date ok. Result: 15.09.2023
+2025-03-03 16:58:56,598 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:58:56,598 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:58:56,598 - get_date - INFO - get_date started. Inputs: args=('invalid-date',), kwargs={}
+2025-03-03 16:58:56,599 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:58:56,599 - get_date - INFO - get_date ok. Result: invalid-date
+2025-03-03 16:58:56,599 - get_date - INFO - get_date ok. Result: invalid-date
