@@ -13,30 +13,19 @@ def convert_to_rub(transaction: dict) -> float:
     Если валюта транзакции USD или EUR, обращается к внешнему API для получения курса.
     Иначе возвращает сумму транзакции в рублях.
     """
-    try:
-        amount = float(transaction.get("amount", 0.0))
-    except ValueError:
-        return 0.0
-
-    currency = transaction.get("currency", "RUB").upper()
+    amount = transaction.get("amount", 0)
+    currency = transaction.get("currency", "RUB")
 
     if currency == "RUB":
         return amount
 
-    headers = {
-        "apikey": EXCHANGE_RATES_API_KEY
-    }
-
-    params = {
-        "base": currency,
-        "symbols": "RUB"
-    }
-
     try:
-        response = requests.get(EXCHANGE_RATES_URL, headers=headers, params=params)
+        # Предполагаем, что API возвращает курсы валют ОТНОСИТЕЛЬНО RUB
+        response = requests.get("https://api.exchangerate-api.com/v4/latest/RUB")
         response.raise_for_status()
-        data = response.json()
-        rate = data["rates"]["RUB"]
+        rates = response.json().get("rates", {})
+        rate = rates.get(currency, 1.0)
         return amount * rate
-    except (requests.RequestException, KeyError, ValueError):
-        return amount
+
+    except (requests.RequestException, KeyError):
+        return amount  # Возвращаем исходную сумму при ошибках
