@@ -1,3 +1,18 @@
+from logs.logger import setup_logger
+
+
+logger = setup_logger("masks")
+
+def some_function():
+    logger.info("Начало выполнения some_function")
+    try:
+        result = 10 / 2
+        logger.debug(f"Результат вычисления: {result}")
+    except Exception as e:
+        logger.error(f"Ошибка в some_function: {e}")
+    logger.info("Завершение выполнения some_function")
+
+
 def get_mask_card_number(card_number: str) -> str:
     """
     Маскирует номер карты, оставляя только первые 4 и последние 4 цифры.
