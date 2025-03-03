@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "date": "2023-09-15T12:34:56Z",
+        "type": "payment",
+        "amount": 100,
+        "currency": "USD",
+        "recipient": "John Doe"
+    },
+    {
+        "id": 2,
+        "date": "2023-09-16T12:34:56Z",
+        "type": "refund",
+        "amount": 50,
+        "currency": "EUR",
+        "sender": "Jane Smith"
+    },
+    {
+        "id": 3,
+        "date": "2023-09-17T12:34:56Z",
+        "type": "payment",
+        "amount": 200,
+        "currency": "RUB",
+        "recipient": "Alice Johnson"
+    }
+]
