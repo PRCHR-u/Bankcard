@@ -113,7 +113,9 @@ def transactions() -> List[Dict[str, Any]]:
             "id": 873106923,
             "state": "EXECUTED",
             "date": "2019-03-23T01:09:46.296404",
-            "operationAmount": {"amount": "43318.34", "currency": {"name": "руб.", "code": "RUB"}},
+            "operationAmount": {
+                "amount": "43318.34", "currency": {"name": "руб.", "code": "RUB"}
+            },
             "description": "Перевод со счета на счет",
             "from": "Счет 44812258784861134719",
             "to": "Счет 74489636417521191160",
@@ -137,3 +139,14 @@ def transactions() -> List[Dict[str, Any]]:
             "to": "Счет 14211924144426031657",
         },
     ]
+
+@pytest.fixture
+def mock_response():
+    mock = MagicMock()
+    mock.json.return_value = {
+        "rates": {
+            "USD": 0.0133,  # 1 RUB = 0.0133 USD → 1 USD ≈ 75 RUB
+            "EUR": 0.0117   # 1 RUB = 0.0117 EUR → 1 EUR ≈ 85 RUB
+        }
+    }
+    return mock

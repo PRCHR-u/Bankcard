@@ -1,5 +1,5 @@
 import json
-import os
+
 
 def load_transactions(file_path: str) -> list:
     """

@@ -1,7 +1,8 @@
-import pytest
-from src.utils import load_transactions
-from pathlib import Path
 import json  # Добавляем импорт json
+from pathlib import Path
+
+from src.utils import load_transactions
+
 
 def test_load_transactions_valid_json():
     test_data = [
@@ -30,6 +31,7 @@ def test_load_transactions_valid_json():
 
     test_file_path.unlink()
 
+
 def test_load_transactions_empty_file():
     test_file_path = Path("data/test_operations.json")
     test_file_path.touch()
@@ -39,6 +41,7 @@ def test_load_transactions_empty_file():
 
     test_file_path.unlink()
 
+
 def test_load_transactions_invalid_json():
     test_file_path = Path("data/test_operations.json")
     test_file_path.write_text("{invalid_json}")
@@ -47,6 +50,7 @@ def test_load_transactions_invalid_json():
     assert result == []
 
     test_file_path.unlink()
+
 
 def test_load_transactions_nonexistent_file():
     test_file_path = Path("data/nonexistent_operations.json")
