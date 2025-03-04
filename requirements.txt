@@ -2,3 +2,6 @@ pytest~=8.3.4
 pytest-cov
 requests
 python-dotenv
+logger~=1.4
+black~=24.10.0
+datetime~=5.5
