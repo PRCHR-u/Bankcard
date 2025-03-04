@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 EXCHANGE_RATES_API_KEY = os.getenv('EXCHANGE_RATES_API_KEY')
-EXCHANGE_RATES_URL = "https://apilayer.com/exchangerates_data-api"
+EXCHANGE_RATES_URL = "https://api.apilayer.com/currency_data/convert"
 
 def convert_to_rub(transaction: dict) -> float:
     """
