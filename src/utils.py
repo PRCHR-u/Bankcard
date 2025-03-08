@@ -42,7 +42,7 @@ def load_transactions(file_path: str) -> list:
 
 
 if __name__ == "__main__":
-    file_path = "data/transactions.json"
+    file_path = "data/operations.json"
     logger.info("Начало выполнения программы")
 
     try:

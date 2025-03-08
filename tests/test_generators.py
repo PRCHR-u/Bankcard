@@ -14,7 +14,8 @@ from src.generators import card_number_generator, filter_by_currency, transactio
     ],
 )
 def test_filter_by_currency(
-        transactions: List[Dict[str, Any]], currency: str, expected_ids: List[int]
+        transactions: List[Dict[str, Any]],
+        currency: str, expected_ids: List[int]
 ) -> None:
     """Тестирует генератор filter_by_currency с параметризацией."""
     usd_transactions = list(filter_by_currency(transactions, currency))
@@ -96,14 +97,16 @@ def generate_transaction_descriptions(transaction_data):
                 descriptions.append("Invalid payment transaction")
             else:
                 descriptions.append(
-                    f"Payment of {transaction['amount']}" f"to {transaction['recipient']}"
+                    f"Payment of {transaction['amount']}" 
+                    f"to {transaction['recipient']}"
                 )
         elif transaction["type"] == "refund":
             if "amount" not in transaction or "sender" not in transaction:
                 descriptions.append("Invalid refund transaction")
             else:
                 descriptions.append(
-                    f"Refund of {transaction['amount']}" f"from {transaction['sender']}"
+                    f"Refund of {transaction['amount']}" 
+                    f"from {transaction['sender']}"
                 )
         else:
             descriptions.append("Unknown transaction type")

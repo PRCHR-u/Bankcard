@@ -88,6 +88,7 @@ def test_convert_to_rub_value_error():
         "amount": "invalid_amount",
         "currency": "USD"
     }
-    with patch('requests.get', return_value=MagicMock(json=lambda: {"rates": {"USD": 75.0}})):
+    with patch('requests.get',
+               return_value=MagicMock(json=lambda: {"rates": {"USD": 75.0}})):
         result = convert_to_rub(transaction)
     assert result == 0.0  # Invalid amount, return 0.0
