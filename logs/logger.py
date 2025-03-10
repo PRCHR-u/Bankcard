@@ -2,7 +2,7 @@ import logging
 import os
 
 # Путь к папке logs
-LOGS_DIR = "logs"
+LOGS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "logs")
 
 # Создание папки logs, если её нет
 if not os.path.exists(LOGS_DIR):
@@ -17,10 +17,12 @@ def setup_logger(module_name: str) -> logging.Logger:
     """
     # Создаем логгер для модуля
     logger = logging.getLogger(module_name)
-    logger.setLevel(logging.DEBUG)  # Уровень логирования
+    logger.setLevel(logging.DEBUG) # Уровень логирования
 
     # Создаем обработчик для записи логов в файл
-    log_file = os.path.join(LOGS_DIR, f"{module_name}.log")
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    log_file = os.path.join(project_root, "logs", f"{module_name}.log")
+    os.makedirs(os.path.dirname(log_file), exist_ok=True)
     file_handler = logging.FileHandler(log_file, mode='w')  # mode='w' для перезаписи файла
     file_handler.setLevel(logging.DEBUG)
 
