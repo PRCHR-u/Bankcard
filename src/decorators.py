@@ -26,7 +26,8 @@ def log(filename=None):
 
             try:
                 # Log function start
-                logger.info(f"{func.__name__} started. Inputs: args={args}, kwargs={kwargs}")
+                logger.info(f"{func.__name__} started. "
+                            f"Inputs: args={args}, kwargs={kwargs}")
 
                 # Call the original function
                 result = func(*args, **kwargs)
@@ -58,7 +59,8 @@ def card_number_generator(start: int, stop: int) -> Generator[str, None, None]:
     if stop > 9999999999999999:
         raise ValueError("Stop value must not exceed 9999999999999999")
     if start > stop:
-        raise ValueError("Start value must be less than or equal to stop value")
+        raise ValueError("Start value must be "
+                         "less than or equal to stop value")
 
     for number in range(start, stop + 1):
         formatted_number = f"{number:016d}"
@@ -85,7 +87,8 @@ def generate_transaction_descriptions(transaction_data: List[Dict[str, Any]]) ->
 
 
 @log(filename="mylog.txt")
-def filter_by_currency(transactions: List[Dict[str, Any]], currency: str) -> List[int]:
+def filter_by_currency(transactions: List[Dict[str, Any]],
+                       currency: str) -> List[int]:
     """
     Функция для фильтрации транзакций по валюте.
 
@@ -138,7 +141,8 @@ def filter_by_state(data: List[Dict[str, Any]], state: str) -> List[Dict[str, An
 
 
 @log(filename="mylog.txt")
-def sort_by_date(data: List[Dict[str, Any]], reverse: bool = True) -> List[Dict[str, Any]]:
+def sort_by_date(data: List[Dict[str, Any]],
+                 reverse: bool = True) -> List[Dict[str, Any]]:
     """Сортирует данные по дате."""
     try:
         # Return a sorted copy of the input data

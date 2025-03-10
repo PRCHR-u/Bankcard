@@ -8,6 +8,7 @@ LOGS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__
 if not os.path.exists(LOGS_DIR):
     os.makedirs(LOGS_DIR)
 
+
 def setup_logger(module_name: str) -> logging.Logger:
     """
     Настройка логгера для указанного модуля.
@@ -23,7 +24,7 @@ def setup_logger(module_name: str) -> logging.Logger:
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     log_file = os.path.join(project_root, "logs", f"{module_name}.log")
     os.makedirs(os.path.dirname(log_file), exist_ok=True)
-    file_handler = logging.FileHandler(log_file, mode='w')  # mode='w' для перезаписи файла
+    file_handler = logging.FileHandler(log_file, mode='w')
     file_handler.setLevel(logging.DEBUG)
 
     # Создаем форматтер для логов

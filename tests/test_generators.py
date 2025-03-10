@@ -2,7 +2,9 @@ from typing import Any, Dict, List
 
 import pytest
 
-from src.generators import card_number_generator, filter_by_currency, transaction_descriptions
+from src.generators import (
+    card_number_generator, filter_by_currency, transaction_descriptions
+)
 
 
 @pytest.mark.parametrize(
@@ -96,18 +98,15 @@ def generate_transaction_descriptions(transaction_data):
             if "amount" not in transaction or "recipient" not in transaction:
                 descriptions.append("Invalid payment transaction")
             else:
-                descriptions.append(
-                    f"Payment of {transaction['amount']}" 
-                    f"to {transaction['recipient']}"
-                )
+                descriptions.append("Payment of {transaction['amount']} to {transaction['recipient']}")
         elif transaction["type"] == "refund":
             if "amount" not in transaction or "sender" not in transaction:
                 descriptions.append("Invalid refund transaction")
             else:
-                descriptions.append(
-                    f"Refund of {transaction['amount']}" 
-                    f"from {transaction['sender']}"
-                )
+                descriptions.append("Refund of "
+                                    "{transaction['amount']} "
+                                    "from {transaction['sender']}"
+                                    )
         else:
             descriptions.append("Unknown transaction type")
     return descriptions

@@ -1,4 +1,3 @@
-import logging
 import os
 import sys
 
@@ -25,7 +24,8 @@ def get_mask_card_number(card_number: str) -> str:
     try:
         if not isinstance(card_number, str) or len(card_number) < 16:
             raise ValueError("Неверный формат номера карты.")
-        masked_card = f"{card_number[:4]} {card_number[4:6]}** **** {card_number[-4:]}"
+        masked_card = (f"{card_number[:4]} "
+                       f"{card_number[4:6]}** **** {card_number[-4:]}")
         logger.debug(f"Маскированный номер карты: {masked_card}")
         return masked_card
     except Exception as e:

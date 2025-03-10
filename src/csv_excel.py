@@ -20,7 +20,8 @@ def read_csv_file(file_path: str) -> list:
     logger.info(f"Попытка чтения файла CSV {file_path}")
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
-            reader = csv.DictReader(file)
+            reader = csv.DictReader(file,
+                                    delimiter=';')
             data = list(reader)
         logger.debug(f"Успешное чтение файла CSV {file_path}")
         return data
@@ -29,6 +30,7 @@ def read_csv_file(file_path: str) -> list:
     except Exception as e:
         logger.error(f"Ошибка при чтении файла CSV {file_path}: {e}")
     return []
+
 
 def read_excel_file(file_path: str) -> list:
     """
@@ -45,6 +47,7 @@ def read_excel_file(file_path: str) -> list:
     except Exception as e:
         logger.error(f"Ошибка при чтении файла Excel {file_path}: {e}")
     return []
+
 
 csv_file_path = "data/transactions.csv"
 excel_file_path = "data/transactions_excel.xlsx"

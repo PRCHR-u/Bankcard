@@ -1,5 +1,4 @@
 import os
-from unittest.mock import MagicMock, patch
 
 import requests
 from dotenv import load_dotenv
@@ -8,6 +7,7 @@ load_dotenv()
 
 EXCHANGE_RATES_API_KEY = os.getenv('EXCHANGE_RATES_API_KEY')
 EXCHANGE_RATES_URL = "https://api.apilayer.com/currency_data/convert"
+
 
 def convert_to_rub(transaction: dict) -> float:
     """
@@ -34,7 +34,8 @@ def convert_to_rub(transaction: dict) -> float:
             "base": currency,
             "symbols": "RUB"
         }
-        response = requests.get(EXCHANGE_RATES_URL, headers=headers, params=params)
+        response = requests.get(EXCHANGE_RATES_URL,
+                                headers=headers, params=params)
         response.raise_for_status()
         rates = response.json().get("rates", {})
         rub_rate = rates.get("RUB", 1.0)  # Пример: {"RUB": 85.0}
