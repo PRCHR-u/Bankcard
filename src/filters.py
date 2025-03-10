@@ -1,5 +1,5 @@
-from collections import Counter
 import re
+from collections import Counter
 
 
 def filter_by_description(transactions: list, search_string: str) -> list:

@@ -1,5 +1,6 @@
 import pytest
-from src.filters import filter_by_description, categorize_transactions
+
+from src.filters import categorize_transactions, filter_by_description
 
 
 def test_filter_by_description_empty_list():
